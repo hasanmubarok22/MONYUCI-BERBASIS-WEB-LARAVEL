@@ -1,0 +1,95 @@
+body {
+    position: absolute;
+    overflow: -1;
+    min-height: 100vh;
+    width: 100%;
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(69, 104, 220, 0.5) 0%, rgba(176, 106, 179, 0.5) 100%) no-repeat center center fixed;
+}
+
+.sidenav {
+    height: 100%;
+    width: 256px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 64px;
+}
+
+.main-gradient-color {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.no-arrow input::-webkit-outer-spin-button,
+.no-arrow input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.no-arrow input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.content-sidebar {
+    padding-top: 64px !important;
+    padding-left: 256px;
+}
+
+.content {
+    padding-top: 64px !important;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.far.fa-heart:hover {
+    font-weight: 900;
+}
+
+.fas.fa-heart:hover {
+    font-weight: 400;
+}
+
+.checked {
+    color: #FFC107;
+}
+
+.vl {
+    border-right: 1px solid #DEE2E6;
+}
+
+#rating_bar span {
+    cursor: pointer !important;
+}
+
+#TentangKami {
+    background-size: cover;
+}
+
+.footer .nav-link {
+    text-decoration-color: white;
+}
